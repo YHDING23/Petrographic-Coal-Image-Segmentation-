@@ -1,0 +1,15 @@
+python eval.py \
+--logtostderr \
+--model_variant="xception_65" \
+--eval_split="trainval" \
+--dataset_dir="Rock_1904/4classes/tfrecord" \
+--dataset="mydata" \
+--eval_crop_size=2049 \
+--eval_crop_size=8193 \
+--atrous_rates=6 \
+--atrous_rates=12 \
+--atrous_rates=18 \
+--output_stride=16 \
+--decoder_output_stride=4 \
+--checkpoint_dir="Rock_1904/4classes/log/train4_062401/" \
+--eval_logdir="Rock_1904/4classes/eval4_062501/"

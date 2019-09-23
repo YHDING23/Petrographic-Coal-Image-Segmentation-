@@ -1,0 +1,14 @@
+python export_model.py \
+--logtostderr \
+--model_variant="xception_65" \
+--vis_split="trainval" \
+--dataset="mydata" \
+--atrous_rates=6 \
+--atrous_rates=12 \
+--atrous_rates=18 \
+--output_stride=16 \
+--vis_crop_size=1025 \
+--vis_crop_size=2049 \
+--checkpoint_path=Rock_1904/4classes/log/train4_062502/model.ckpt-207000 \
+--export_path=Rock_1904/4classes/model2.pb \
+--num_classes=4   

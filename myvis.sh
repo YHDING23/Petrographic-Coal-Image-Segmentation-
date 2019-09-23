@@ -1,0 +1,17 @@
+python vis.py \
+--logtostderr \
+--model_variant="xception_65" \
+--vis_split="trainval" \
+--dataset="mydata" \
+--vis_crop_size=1025 \
+--vis_crop_size=2049 \
+--atrous_rates=6 \
+--atrous_rates=12 \
+--atrous_rates=18 \
+--output_stride=16 \
+--decoder_output_stride=4 \
+--colormap_type="pascal" \
+--checkpoint_dir="Rock_1904/4classes/log/train4_062501/" \
+--vis_logdir="Rock_1904/4classes/vis4_062501/" \
+--dataset_dir="Rock_1904/4classes/tfrecord/" \
+--also_save_raw_predictions=true

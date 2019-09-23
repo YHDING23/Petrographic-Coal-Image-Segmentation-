@@ -1,0 +1,20 @@
+python train.py \
+--logtostderr \
+--training_number_of_steps=207000 \
+--model_variant="xception_65" \
+--train_split="train" \
+--atrous_rates=6 \
+--atrous_rates=12 \
+--atrous_rates=18 \
+--output_stride=16 \
+--decoder_output_stride=4 \
+--train_crop_size=513 \
+--train_crop_size=513 \
+--train_batch_size=2 \
+--dataset="mydata" \
+--tf_initial_checkpoint='backbone/deeplabv3_cityscapes_train/model.ckpt' \
+--train_logdir=Rock_1904/4classes/log/train4_062502 \
+--dataset_dir='Rock_1904/4classes/tfrecord' \
+--fine_tune_batch_norm=false \
+--initialize_last_layer=false \
+--last_layers_contain_logits_only=True
