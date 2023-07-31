@@ -14,7 +14,7 @@ arbitrarily control the resolution of extracted encoder features by atrous convo
 
 *   Proposed Method
 ```
-@inproceedings{deeplabv3plus2019,
+@inproceedings{petrochipDLseg2019,
   title={Petrographic Coal Images Segmentation Based on an Enhanced Deeplabv3 Model},
   author={Yaohui Ding, Changzheng Zan, Ye Zhou},
   booktitle={Computers & Geosciences},
