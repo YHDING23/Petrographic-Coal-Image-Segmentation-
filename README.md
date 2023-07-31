@@ -2,7 +2,7 @@
 
 This project aims to segment 10+ kinds of minerals (such as Quartz, Pyrite, Mica and interstitial) in microscope images under varied conditions. As shown in the Figure, the inputs are two geographic or petrographic chip images collected under plane-polarized light and cross-polarized light, respectively. The chip shows variant resolutions, edges and textures under these conditions. With our proposed model, mIoU achieves ~78%, overcoming the deeplabv3 (61%) and PSPnet (69%). 
 
-
+![img](./evaluation/g3doc/img/Enhanced%20Deeplab.png)
 
 The model can only be downloaded and tested after applying for a permit from the repository author[dingyaohui2016@gmail.com]. 
 
